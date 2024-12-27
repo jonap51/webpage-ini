@@ -10,8 +10,9 @@
 
 
 h1 {
+    margin-top: 16px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -31,34 +32,37 @@ h1 {
 .imagen {
     display: flex;
     justify-content: center;
-    flex-basis: 50%;
     background-color: rgb(1, 136, 255);
+    margin: 32px;
+    height: 600px;
     width: 600px;
-    height: 700px;
-    margin: 16px;
 }
 
 .mujernavidad {
     border-radius: 5%;
-    height: 700px;
+    height: 600px;
     object-fit: scale-down;
+
+
 
 }
 
 .formulario {
-    margin: 16px;
     flex-basis: 50%;
     border: 2px solid rgb(167, 167, 167);
     border-radius: 15px;
-    height: 700px;
+    height: 600px;
+    width: 300px;
+    margin-left: 32px;
+
+
 
 
 }
 
 
 .iconosSociales {
-    border: 5PX solid red;
-    margin: 8px;
+    margin: 16px;
     display: flex;
     justify-content: space-around;
 
@@ -67,18 +71,13 @@ h1 {
 .icon {
     display: flex;
     justify-content: center;
-    height: 50px;
-    width: 80px;
-    border: 1px solid black;
+    height: 40px;
+    width: 65px;
+    padding: 8px;
+    border: 1px solid rgb(165, 165, 165);
     border-radius: 5px;
 }
 
-
-
-.container {
-    text-align: center;
-    /* Centra el contenido horizontalmente */
-}
 
 .botones {
     display: flex;
@@ -129,5 +128,5 @@ p {
 
 p:nth-child(3) {
     text-decoration: underline;
-    color: orangered;
+    color: rgb(255, 139, 72);
 }
