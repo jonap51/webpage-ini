@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.seccion_dos {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+.centrado {
+    display: flex;
+    align-items: center;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+    background-color: rgb(1, 136, 255);
+    width: 600px;
+    height: 700px;
+    margin: 16px;
+}
+
+.mujernavidad {
+    border-radius: 5%;
+    height: 700px;
+    object-fit: scale-down;
+
+}
+
+.formulario {
+    margin: 16px;
+    flex-basis: 50%;
+    border: 2px solid rgb(167, 167, 167);
+    border-radius: 15px;
+    height: 700px;
+
+
+}
+
+
+.iconosSociales {
+    border: 5PX solid red;
+    margin: 8px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+
+.container {
+    text-align: center;
+    /* Centra el contenido horizontalmente */
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    margin: 16px;
+}
+
+button {
+    width: auto;
+    height: 50px;
+    padding: 0 20px;
+    background-color: rgb(255, 230, 0);
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.button_email {
+    background-color: brown;
+}
+
+
+.boxformulario {
+    border: 1px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+}
+
+label {
+    margin: 8px;
+}
+
+input {
+    height: 32px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+p {
+    text-align: center;
+    margin: 8px;
+}
+
+p:nth-child(3) {
+    text-decoration: underline;
+    color: orangered;
+}
