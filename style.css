@@ -8,14 +8,151 @@
     margin: 0;
 }
 
+/*-----INICIO Sección 1-----*/
 
-h1 {
-    margin-top: 16px;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 500;
+/*-----INICIO Cabecera 1-----*/
+
+.cabecera-uno {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    background-color: rgb(51, 51, 51);
+    color: white;
 }
 
+
+/*Cabecera 1/lado izquierdo*/
+.contacto,
+.precio {
+    display: flex;
+    margin: 0;
+
+}
+
+/*Contenedor del icono y del parrafo*/
+.contacto-telefono,
+.contacto-email,
+.precio-delivery,
+.precio-idioma,
+.precio-moneda,
+.contenedor-favorito,
+.contenedor-cesta,
+.contenedor-perfil {
+    display: flex;
+    align-items: center;
+}
+
+/*Icono al lado del parrrafo*/
+.icon-telefono,
+.icon-email,
+.icon-delivery,
+.icon-arrow {
+    margin-left: 40px;
+
+}
+
+/*Parrafo al lado del icono*/
+.telefono,
+.email,
+.delivery,
+.idioma,
+.moneda,
+.favorito,
+.cesta,
+.icon-perfil {
+    padding: 0 10px;
+    margin: 0;
+}
+
+
+
+/*Cabecera 1/Barra divisoria vertical*/
+
+.barra-vertical-divider {
+    display: flex;
+    margin: 0 40px;
+}
+
+.vertical-line {
+    flex-grow: 1;
+    width: 2px;
+    color: aliceblue;
+    background-color: aliceblue;
+}
+
+/*-----FIN Cabecera 1-----*/
+
+/*-----INICIO Cabecera 2-----*/
+.cabecera-dos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenerdor-logo {
+    display: flex;
+    width: 200px;
+    flex-basis: 20%;
+    margin-left: 40px;
+    padding-left: 10px;
+    /*se coloca  margin como en  "icon-telefono = 40"  */
+}
+
+.imagen-logo {
+    width: 100px;
+
+}
+
+.contenedor-search-icon {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.buscador {
+    display: flex;
+    background-color: blue;
+    width: 600px;
+    height: 50px;
+}
+
+.contenedor-fav-cest-perf {
+    display: flex;
+    background-color: aqua;
+    flex-basis: 20%;
+}
+
+
+.contenedor-favorito {
+    background-color: blue;
+}
+
+.contenedor-perfil {
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-----FIN Cabecera 2-----*/
+
+/*-----INICIO Cabecera 3-----*/
+/*-----FIN Cabecera 3-----*/
+
+
+
+/*-----FIN Sección 1-----*/
+
+/*-----INICIO Sección 2-----*/
 
 .seccion_dos {
     display: flex;
@@ -28,6 +165,8 @@ h1 {
     display: flex;
     align-items: center;
 }
+
+/*Sección 2/imagen de la izquierda*/
 
 .imagen {
     display: flex;
@@ -43,6 +182,8 @@ h1 {
     object-fit: scale-down;
 }
 
+/*Sección 2/Formulario*/
+
 .formulario {
     flex-basis: 50%;
     border: 2px solid rgb(167, 167, 167);
@@ -50,6 +191,13 @@ h1 {
     height: 600px;
     width: 300px;
     margin-left: 32px;
+}
+
+h1 {
+    margin: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .iconosSociales {
@@ -67,6 +215,8 @@ h1 {
     border: 1px solid rgb(165, 165, 165);
     border-radius: 5px;
 }
+
+/*Sección 2/Formulario/división*/
 
 .divider {
     display: flex;
@@ -97,10 +247,13 @@ h1 {
     color: rgb(85, 85, 85);
 }
 
+
+/*Sección 2/Formulario/Botones email_mobile*/
+
 .botones {
     display: flex;
-    justify-content: space-around;
-    margin: 16px;
+    justify-content: space-evenly;
+    margin: 0 32px;
 }
 
 button {
@@ -114,10 +267,12 @@ button {
 }
 
 .button_email {
+    margin-left: 18px;
     color: white;
     background-color: rgb(255, 139, 72);
 }
 
+/*Sección 2/Formulario/input*/
 form {
     display: flex;
     flex-direction: column;
@@ -156,6 +311,7 @@ input {
     right: 0;
 }
 
+/*Sección 2/Formulario/recuperación*/
 
 .textforgotten {
     margin-top: 0px;
@@ -170,6 +326,7 @@ input {
     align-items: center;
 }
 
+/*Sección 2/Formulario/botón logueo*/
 .button_signIn {
     width: 200px;
     color: white;
@@ -181,3 +338,5 @@ p:nth-child(3) {
     text-decoration: underline;
     color: rgb(255, 139, 72);
 }
+
+/*-----FIN Sección 2-----*/
