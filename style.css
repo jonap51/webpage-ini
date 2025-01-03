@@ -14,19 +14,18 @@
 
 .cabecera-uno {
     display: flex;
-    padding: 10px 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
     justify-content: space-between;
     background-color: rgb(51, 51, 51);
     color: white;
 }
 
-
 /*Cabecera 1/lado izquierdo*/
 .contacto,
 .precio {
     display: flex;
-    margin: 0;
-
+    margin-left: 20px;
 }
 
 /*Contenedor del icono y del parrafo*/
@@ -40,14 +39,19 @@
 .contenedor-perfil {
     display: flex;
     align-items: center;
+    margin-left: 20px;
 }
 
 /*Icono al lado del parrrafo*/
 .icon-telefono,
 .icon-email,
 .icon-delivery,
-.icon-arrow {
-    margin-left: 40px;
+.icon-arrow,
+.icon-fav,
+.icon-cest,
+.icon-perfil {
+    font-size: 20px;
+    margin: 0 10px;
 
 }
 
@@ -55,22 +59,22 @@
 .telefono,
 .email,
 .delivery,
-.idioma,
-.moneda,
 .favorito,
-.cesta,
-.icon-perfil {
-    padding: 0 10px;
-    margin: 0;
+.cesta {
+    margin-right: 20px;
 }
 
 
+
+.email {
+    text-decoration: underline;
+}
 
 /*Cabecera 1/Barra divisoria vertical*/
 
 .barra-vertical-divider {
     display: flex;
-    margin: 0 40px;
+    margin: 0 20px;
 }
 
 .vertical-line {
@@ -81,6 +85,7 @@
 }
 
 /*-----FIN Cabecera 1-----*/
+
 
 /*-----INICIO Cabecera 2-----*/
 .cabecera-dos {
@@ -93,9 +98,9 @@
     display: flex;
     width: 200px;
     flex-basis: 20%;
-    margin-left: 40px;
+    margin-left: 30px;
     padding-left: 10px;
-    /*se coloca  margin como en  "icon-telefono = 40"  */
+    /*se coloca  margin como en  "icon-telefono = 40"*/
 }
 
 .imagen-logo {
@@ -107,43 +112,22 @@
     flex-basis: 60%;
     display: flex;
     justify-content: center;
-
-
 }
 
 .buscador {
     display: flex;
-    background-color: blue;
     width: 600px;
     height: 50px;
 }
 
 .contenedor-fav-cest-perf {
     display: flex;
-    background-color: aqua;
     flex-basis: 20%;
 }
 
-
-.contenedor-favorito {
-    background-color: blue;
-}
-
-.contenedor-perfil {
-    background-color: blueviolet;
-}
-
-
-
-
-
-
-
-
-
-
-
 /*-----FIN Cabecera 2-----*/
+
+
 
 /*-----INICIO Cabecera 3-----*/
 /*-----FIN Cabecera 3-----*/
@@ -279,9 +263,8 @@ form {
     margin: 0 20px;
 }
 
-label,
-p {
-    margin-top: 15px;
+label {
+    margin-top: 20px;
     margin-left: 10px;
 }
 
@@ -313,11 +296,6 @@ input {
 
 /*Sección 2/Formulario/recuperación*/
 
-.textforgotten {
-    margin-top: 0px;
-    margin-bottom: 18px;
-}
-
 .bottomposition {
     margin-left: 20px;
     display: flex;
@@ -331,10 +309,15 @@ input {
     width: 200px;
     color: white;
     background-color: rgb(255, 139, 72);
-    margin-top: 16px;
+    margin-top: 25px;
 }
 
-p:nth-child(3) {
+.no-tiene-cuenta,
+.registro {
+    margin-top: 14px;
+}
+
+.registro {
     text-decoration: underline;
     color: rgb(255, 139, 72);
 }
