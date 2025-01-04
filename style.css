@@ -6,8 +6,12 @@
     font-optical-sizing: auto;
     font-style: normal;
     margin: 0;
+
 }
 
+body {
+    height: 80vh;
+}
 
 
 /*-----INICIO Sección 1-----*/
@@ -94,6 +98,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .contenerdor-logo {
@@ -136,6 +141,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 nav {
@@ -173,54 +179,37 @@ a {
 
 /*-----INICIO Sección 2-----*/
 
-.seccion_dos {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-}
-
-
 .centrado {
     display: flex;
-    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px 80px;
+
 }
 
 /*Sección 2/imagen de la izquierda*/
 
-.imagen {
-    display: flex;
-    justify-content: center;
-    margin: 32px;
-    height: 600px;
-    width: 600px;
-}
-
 .mujernavidad {
-    border-radius: 5%;
-    height: 600px;
-    object-fit: scale-down;
+    border-radius: 15px;
+    height: 700px;
+
 }
 
 /*Sección 2/Formulario*/
 
 .formulario {
-    flex-basis: 50%;
     border: 2px solid rgb(167, 167, 167);
     border-radius: 15px;
-    height: 600px;
-    width: 300px;
-    margin-left: 32px;
+    width: 450px;
 }
 
 h1 {
-    margin: 30px;
+    margin: 40px;
     text-align: center;
     font-size: 25px;
     font-weight: 500;
 }
 
 .iconosSociales {
-    margin: 16px;
     display: flex;
     justify-content: space-around;
 }
@@ -241,7 +230,8 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 
@@ -272,7 +262,7 @@ h1 {
 .botones {
     display: flex;
     justify-content: space-evenly;
-    margin: 0 32px;
+    margin: 20px 32px;
 }
 
 button {
@@ -298,9 +288,11 @@ form {
     margin: 0 20px;
 }
 
-label {
-    margin-top: 20px;
+label,
+.olvido {
+    margin-top: 10px;
     margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 input {
@@ -310,6 +302,7 @@ input {
     padding: 8px;
     border-radius: 5px;
     border: 1px solid black;
+    margin-bottom: 20px;
 }
 
 .container-email {
@@ -328,6 +321,7 @@ input {
     position: absolute;
     right: 0;
 }
+
 
 /*Sección 2/Formulario/recuperación*/
 
